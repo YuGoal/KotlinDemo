@@ -12,10 +12,9 @@ class App : Application() {
 
     override fun onCreate() {
         super.onCreate()
-
     }
 
     companion object {
-        lateinit var instance : App
+        lateinit var instance: App
     }
 }
