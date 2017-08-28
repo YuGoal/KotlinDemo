@@ -1,4 +1,4 @@
-package android.xc.com.kotlindemo.bean
+package io.caoyu.com.kotlindemo.bean
 
 /**
  * Created by caoyu on 2017/8/11.

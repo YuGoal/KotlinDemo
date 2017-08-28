@@ -1,4 +1,4 @@
-package android.xc.com.kotlindemo.api
+package io.caoyu.com.kotlindemo.api
 
 /**
  * 网络请求类
@@ -13,4 +13,5 @@ class Api {
     }
 
     private object Holder { val INSTANCE = Api() }
+
 }
