@@ -6,13 +6,11 @@ import android.app.Application
  * Created by caoyu on 2017/8/11.
  */
 class App : Application() {
-    init {
+    override fun onCreate() {
+        super.onCreate()
         instance = this
     }
 
-    override fun onCreate() {
-        super.onCreate()
-    }
 
     companion object {
         lateinit var instance: App
