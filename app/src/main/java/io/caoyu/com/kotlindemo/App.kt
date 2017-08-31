@@ -15,4 +15,8 @@ class App : Application() {
     companion object {
         lateinit var instance: App
     }
+
+    fun  getInstance():App{
+        return instance
+    }
 }
